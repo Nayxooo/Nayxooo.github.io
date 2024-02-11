@@ -1,0 +1,17 @@
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.logo-container .logo img {
+    width: 50%; /* Ajustez la largeur selon vos besoins */
+    height: auto; /* Cela maintiendra le rapport hauteur/largeur d'origine de l'image */
+    box-shadow: 0 0 20px #000;
+    transition: 0.3ease;
+}
+
+.logo-container .logo img:hover {
+    box-shadow: 0 0 30px #ff7a7a;
+}
