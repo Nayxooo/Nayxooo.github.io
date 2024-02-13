@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(./assets/fonts/static/RobotoMono-Medium.ttf);
+}
+
+/* Surlignement modifié */
+::selection {
+    background-color: #57473f; 
+    color: #fff2e4; 
+}
+::-moz-selection {
+    background-color: #57473f;
+    color: #fff2e4;
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    /* background: #fff2e4; */
+}
+
+img {
+    background-color: transparent; 
+}
+
+.owasp-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.lien-rapport {
+    font-weight: 700;
+}
+
+.colo-lien {
+    color: #a353ff;
+}
+.titre{  
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    height: 80px;
+    color: #241e1b; 
+    text-shadow: 2px 2px rgba(78, 72, 63, 0.459); 
+}
+
+.titre h1{
+    margin-top: 10px;
+    text-transform: uppercase; 
+    font-size: 48px;
+}
+
+.pretext {
+    color: #241e1b; 
+    margin-left: 20px;
+    height: 65px;
+}
+.pretext h2{
+    font-size: 24px;
+    text-shadow: 2px 2px rgba(78, 72, 63, 0.253);
+    margin-bottom: 5px;
+}
+.pretext p {
+    margin-bottom: 100px;
+}
+
+/* .intro-grid .grid-container > * {
+    border: 2px solid blue;  Ajouter une bordure à chaque enfant de la grille 
+} */
+
+/* .intro-grid .grid-container > .column2 {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: green;
+    text-transform: capitalize;
+    color: lightgreen;
+} */
+
+/* GRID DE TRANSITION */
+.transition-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff2e4;
+    background-color: #241e1b;
+    min-height: 80px;
+    min-width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 2px #241e1b;
+}
+
+.transition-flex p {
+    text-transform: uppercase;
+    font-weight: 500;
+    text-shadow: 0px 0px 10px #fff2e4;
+    transition: 0.1s ease;
+}
+
+.contenu a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.transition-flex p:hover {
+    font-size: large;
+}
+
+.main-flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 300;
+}
+
+.img-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-container img {
+    box-shadow: 0 0 20px 0 rgb(0, 0, 0); 
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+.img-container img:hover {
+    box-shadow: 0 0 50px 0 rgb(236, 190, 129); 
+}
+
+.prefooter-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff2e4;
+    height: 200px;
+    margin-top: 10px;
+}
+
+/* ===== SPAN ===== */
+.overline {
+    background-color: #241e1b;
+    color: #fff2e4;
+    font-weight: 600;
+    padding: 2px;
+}
+.bold {
+    font-weight: 900;
+    font-size: larger;
+}
+.question {
+    font-weight: 900;
+    font-size: larger;
+    font-style: italic;
+    padding: 2px;
+    background-color: #241e1b;
+    color: #fff2e4;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 920px) {
+    .prefooter-flex {
+        height: 210px;
+    }
+}
+
+@media (max-width: 767px) {
+    .prefooter-flex {
+        height: 360px;
+    }
+}
+
+@media (max-width: 574px) {
+    .prefooter-flex {
+        height: 500px;
+    }
+}
+
+@media (max-width: 475px) {
+    .img-container img {
+        height: 80%;
+        width: 80%;
+    }
+}
+

@@ -1,0 +1,121 @@
+.darkmode-btn button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+/* COULEURS PRINCIPALES */
+/* background: #fff2e4;
+    background: #241e1b;
+    background: #3d322c;
+    background: #ffe7cd; */
+
+.darkmode-btn button img {
+    width: 45px; 
+    height: 45px;
+}
+body.dark {
+    /* color: #fff; */
+    transition: 0.3s ease;
+    background: #241e1b;
+}
+body.light {
+    transition: 0.3s ease;
+    background: #fff2e4;
+}
+
+/* SLIDE DARK MODE */
+body.dark .slide {
+    background-color: #fff2e4;
+}
+body.dark .slide h1{
+    color: #241e1b;
+}
+body.dark .slide .tag{
+    color: #241e1b;
+}
+body.dark .slide .tag:hover {
+    color: #fff2e4;
+}
+body.dark .slide ul li a {
+    color: #241e1b;
+}
+body.dark .slide ul li:hover a {
+    color: #3d322c;
+    background-color: #ffe7cd;
+}
+body.dark .toggle {
+    background-color: #fff2e4;
+}
+body.dark .toggle .common {
+    background-color: #241e1b;
+}
+
+/* FOOTER DARK MODE */
+body.dark .footer {
+    background-color: #fff2e4;
+}  
+body.dark .footer-col h4 {
+	color: #241e1b;
+}
+body.dark .footer-col h4::before {
+	background-color: #85553e;
+}  
+body.dark .footer-col ul li a {
+	color: #241e1b;
+} 
+body.dark .footer-col ul li a:hover {
+	color: #85553e;
+}
+body.dark .footer-col .réseaux-sociaux a {
+	background-color: #775748;
+	color: #fff2e4;
+}
+body.dark .footer-col .réseaux-sociaux a:hover {
+	color: #2b2724;
+	background-color: #ffddb8;
+}
+
+/* Dark mode scrollbar */
+body.dark .scrollbar {
+    background: linear-gradient(to top, #584840, #a48f7f);
+}
+
+/* Dark mode main features */
+body.dark .titre  {
+    color: #fff2e4; 
+    text-shadow: 2px 2px rgba(246, 230, 207, 0.459); 
+}
+body.dark .pretext {
+    color: #fff2e4; 
+}
+body.dark .pretext h2 {
+    text-shadow: 2px 2px rgba(100, 92, 79, 0.441);
+}
+body.dark .contenu {
+    color: #fff2e4; 
+}
+
+body.dark .overline {
+    background-color: #fff2e4;
+    color: #241e1b;
+}
+body.dark .question {
+    background-color: #fff2e4;
+    color: #241e1b;
+}
+
+body.dark .transition-flex {
+    color: #fff2e4;
+    background-color: #3d322c;
+    box-shadow: 0px 0px 5px 2px #3d322c;
+}
+body.dark .transition-flex p {
+    text-shadow: 0px 0px 10px #fff2e4;
+}
+
+body.dark .prefooter-flex {
+    background-color: #241e1b;
+}
