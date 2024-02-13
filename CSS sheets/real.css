@@ -1,0 +1,12 @@
+.real-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.real-flex .contenu{
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-weight: 300;
+}
+
